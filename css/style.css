@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: metropolis-regular;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: metropolis-regular;
+    src: url(../Fonts/metropolis.regular.otf);
+}
+
+@font-face{
+    font-family: metropolis-medium;
+    src: url(../Fonts/metropolis.medium.otf);
+}
+
+@font-face {
+    font-family: metropolis-bold;
+    src: url(../Fonts/metropolis.bold.otf);
+}
+
+@font-face {
+    font-family: metropolis-semi-bold;
+    src: url(../Fonts/metropolis.semi-bold.otf);
+}
+
+@font-face {
+    font-family: metropolis-black;
+    src: url(../Fonts/metropolis.black.otf);
+}
+
+.logo{
+    width: 160px;
+}
+
+.top-carousel{
+    height: 104vh;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.top-carousel > img{
+    height: 100%;
+    object-fit: fill;
+}
+
+.carousel-caption{
+    bottom: 30%;
+    text-align: left;
+    left: 10%;
+}
+
+.carousel-caption > h2{
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.carousel-caption > span{
+    font-family: metropolis-bold !important;
+    font-size: 42px;
+    margin-bottom: 0.5%;
+}
+
+.carousel-caption > p{
+    font-size: 14px;
+    width: 36%;
+    margin-bottom: 3%;
+}
+
+.store > a{
+    margin-right: 2%;
+}
+
+.play{
+    width: 180px;
+}
+
+.top-indicators{
+    left: -70%;
+    bottom: 8%;
+}
+
+.navbar{
+    padding: 2% 9%;
+}
+
+.navbar .navbar-nav .active > .nav-link, .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link.show{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5%;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-family: metropolis-medium;
+}
+
+.navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5%;
+}
+
+.btn-download{
+    color: #9B3189;
+    font-family: metropolis-medium;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 10px 30px 8px 30px;
+    border-radius: 64px;
+}
+
+.btn-download:hover{
+    color: #9B3189;
+}
+
+.bgcolor.scrolled {
+    background-image: linear-gradient(#532280 ,#9B3189);
+    transition: background 600ms linear;
+    height: 12%;
+}
+
+.navbar.scrolled{
+    color: #9B3189;
+}
+
+.features{
+    background-image: url(../assets/Group\ 59364@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 5%;
+    padding-bottom: 1.5%;
+    position: relative;
+}
+
+.vertical-text{
+    position: absolute;
+    top: 35%;
+    left: 10.5%;
+    color: white;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+}
+
+.feature-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 12%;
+}
+
+.feature-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.feature-content img{
+    width: 30%;
+}
+
+.feature-content p{
+    color: var(--download-hover);
+    font-size: 18px;
+    font-family: metropolis-medium;
+    margin-top: 10%;
+}
+
+.badge-feature{
+    position: absolute;
+    top: -5%;
+    left: 10%;
+}
+
+.works{
+    background-image: url(../assets/Mask\ Group\ 512@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5% 12% 8% 12%;
+}
+
+.main-content{
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 8%;
+}
+
+.main-content > h1{
+    color: #532280;
+    font-family: metropolis-medium;
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+.main-content > p{
+    color: #532280;
+}
+
+.work-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-content-left > h2{
+    color: #532280;
+    font-family: metropolis-medium;
+    margin-bottom: 5%;
+}
+
+.work-content-left > p{
+    color: #532280;
+    width: 75%;
+}
+
+.work-content-right{
+    position: relative;
+}
+
+.main-image-create{
+    width: 100%;
+}
+
+.custom-image{
+    position: absolute;
+    top: -6.5%;
+    right: 18.5%;
+    width: 62%;
+}
+
+.first-image{
+    position: absolute;
+    top: 9.5%;
+    right: -4%;
+    width: 35%;
+}
+
+.second-image{
+    position: absolute;
+    top: 43%;
+    right: 80%;
+    width: 35%;
+}
+
+.main-image-discover{
+    width: 95%;
+}
+
+.work-content-reverse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-content-right-reverse{
+    position: relative;
+}
+
+.custom-image-reverse{
+    position: absolute;
+    width: 60%;
+    left: 17.5%;
+    top: -7%;
+}
+
+.first-image-reverse{
+    position: absolute;
+    width: 35%;
+    top: 17%;
+    left: 66%;
+}
+
+.second-image-reverse{
+    position: absolute;
+    width: 35%;
+    top: 50%;
+    left: -17%;
+}
+
+.work-content-left-reverse > h2{
+    color: #532280;
+    font-family: metropolis-medium;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.work-content-left-reverse > p{
+    color: #532280;
+    width: 81%;
+    margin-left: 20%;
+}
+
+.work-content-left-admission{
+    width: 85%;
+}
+
+.work-content-left-admission > h2{
+    color: #532280;
+    font-family: metropolis-medium;
+    margin-bottom: 5%;
+}
+
+.work-content-left-admission > p{
+    color: #532280;
+    width: 79%;
+}
+
+.work-content-left-reverse-start{
+    width: 90%;
+}
+
+.work-content-left-reverse-start > h2{
+    color: #532280;
+    font-family: metropolis-medium;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.work-content-left-reverse-start > p{
+    color: #532280;
+    width: 90%;
+    margin-left: 20%;
+}
+
+.app{
+    background-image: url(../assets/Group\ 74393@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 13%;
+    position: relative;
+}
+
+.app-style{
+    width: 50%;
+}
+
+.app-style h1{
+    color: #532280;
+    margin-bottom: 7%;
+}
+
+.app-style p{
+    color: #532280;
+    font-size: 14px;
+    margin-bottom: 7%;
+}
+
+.app-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app-btn h4{
+    color: #9B3189;
+    margin-bottom: 4%;
+}
+
+.mac-store{
+    margin-left: 5%;
+}
+
+.pad{
+    padding-bottom: 3%;
+}
+
+.cities-content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 11%;
+    padding-right: 11%;
+    position: relative;
+}
+
+.bar{
+    width: 50px;
+}
+
+.middle-img{
+    height: 500px;
+}
+
+.cities-name{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15%;
+    left: 16%;
+}
+
+.cities-name1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35.5%;
+    left: 16%;
+}
+
+.cities-name2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 34.5%;
+    left: 16%;
+}
+
+.cities-name3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 13.5%;
+    left: 16%;
+}
+
+.cities-name4{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 14.5%;
+    right: 16%;
+    text-align: right;
+}
+
+.cities-name5{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35.5%;
+    right: 16%;
+    text-align: right;
+}
+
+.cities-name6{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 34.3%;
+    right: 16%;
+    text-align: right;
+}
+
+.cities-name7{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 13.3%;
+    right: 16%;
+    text-align: right;
+}
+
+.city{
+    font-size: 18px;
+    color: #532280;
+    margin-bottom: 0;
+    font-family: metropolis-black;
+}
+
+.number{
+    color: #9B3189;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: metropolis-semi-bold;
+}
+
+.touch{
+    background-image: url(../assets/Group\ 71721.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 7% 20% 9% 9%;
+    margin: 0 2% 3.2% 2%;
+}
+
+.touch-content{
+    width: 45%;
+}
+
+.touch-content h2{
+    color: white;
+    margin-bottom: 5%;
+    font-family: metropolis-semi-bold;
+}
+
+.touch-content p{
+    color: white;
+    margin-bottom: 12%;
+}
+
+.box{
+    width: 55%;
+    height: 5%;
+    background-color: transparent;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border: 1px solid white;
+}
+
+.box > img{
+    padding-left: 5%;
+}
+
+.box > input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+input::placeholder{
+    color: white !important;
+    opacity: 0.8;
+}
+
+.btn-submit{
+    background-color: white;
+    color: #532280;
+    font-size: 14px;
+    border-radius: 50px;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: 10px;
+    padding-top: 1.5%;
+}
+
+.mobile{
+    display: none;
+}
+
+.last-carousel{
+    position: relative;
+    height: 87vh;
+}
+
+.last-content{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.last-content > h1{
+    color: #532280;
+    font-family: metropolis-medium;
+    font-size: 35px;
+}
+
+.last-content > p{
+    color: #532280;
+}
+
+.last-content-img{
+    position: absolute;
+    width: 50%;
+    top: 23%;
+    left: 25%;
+}
+
+.last-indicators{
+    bottom: -12%;
+}
+
+.last-indicators [data-bs-target]{
+    background-color: #9B3189;
+}
+
+.end-banner{
+    background-image: url(../assets/Group\ 65398.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10% 30% 3% 30%;
+    text-align: center;
+    position: relative;
+}
+
+.end-banner p{
+    color: white;
+    margin-top: 3.5%;
+    margin-left: 0.8%;
+}
+
+.top-icon{
+    position: absolute;
+    top: 24%;
+    right: 13%;
+    width: 1.5%;
+}
+
+.footer{
+    font-family: metropolis-medium;
+    color: #532280;
+    text-align: center;
+    margin-top: 1.2%;
+}

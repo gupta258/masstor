@@ -1,0 +1,186 @@
+@media only screen and (min-width: 1920px) and (min-height: 1080px){   
+    .top-carousel{
+        height: 108vh !important;
+    }
+    .logo{
+        width: 100% !important;
+    }
+    .carousel-caption{
+        bottom: 34% !important;
+    }
+    .carousel-caption > h2{
+        font-size: 64px !important;
+    }
+    .carousel-caption > span{
+        font-size: 64px !important;
+    }
+    .carousel-caption > p{
+        font-size: 16px !important;
+        width: 30% !important;
+        margin-bottom: 3% !important;
+    }
+    .store > a{
+        margin-right: 2% !important;
+    }
+    .play{
+        width: 250px !important;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 16px !important;
+    }
+    .btn-download{
+        font-size: 16px !important;
+    }
+    .top-indicators{
+        left: -72% !important;
+        bottom: 14% !important;
+    }
+    .features{
+        padding-bottom: 2% !important;
+    }
+    .vertical-text{
+        font-size: 20px !important;
+    }
+    .feature-content p{
+        font-size: 20px !important;
+    }
+    .bgcolor.scrolled {
+        height: 9% !important;
+    }
+    .main-content{
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+    .work-content-left > h2{
+        font-size: 40px !important;
+    }
+    .work-content-left-reverse > h2{
+        font-size: 40px !important;
+    }
+    .main-content > p{
+        font-size: 20px !important;
+    }
+    .work-content-left-admission{
+        width: 75% !important;
+    }
+    .work-content-left-admission > h2{
+        font-size: 40px !important;
+    }
+    .work-content-left-reverse-start > h2{
+        font-size: 40px !important;
+    }
+    .explore{
+        width: 75% !important;
+    }
+    .work-content-left-reverse-start{
+        width: 70% !important;
+    }
+    .work-content-left-reverse-start > p{
+        width: 75% !important;
+    }
+    .app{
+        padding: 5% 13% !important;
+    }
+    .app-style h1{
+        font-size: 60px !important;
+    }
+    .app-style p{
+        font-size: 16px !important;
+    }
+    .app-btn h4{
+        font-size: 28px !important;
+    }
+    .bar{
+        width: 75px !important;
+    }
+    .middle-img{
+        height: 750px !important;
+    }
+    .cities-name{
+        top: 15% !important;
+        left: 16% !important;
+    }
+    .cities-name1{
+        top: 36% !important;
+        left: 16% !important;
+    }
+    .cities-name2{
+        bottom: 34.5% !important;
+        left: 16% !important;
+    }
+    .cities-name3{
+        bottom: 13% !important;
+        left: 16% !important;
+    }
+    .cities-name4{
+        top: 15% !important;
+        right: 16% !important;
+    }
+    .cities-name5{
+        top: 35.5% !important;
+        right: 16% !important;
+    }
+    .cities-name6{
+        bottom: 34.5% !important;
+        right: 16% !important;
+    }
+    .cities-name7{
+        bottom: 13.5% !important;
+        right: 16% !important;
+    }
+    .city{
+        font-size: 26px !important;
+    }
+    .number{
+        font-size: 26px !important;
+    }
+    .touch{
+        padding: 6% 20% 8% 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .touch-content h2{
+        font-size: 40px !important;
+    }
+    .touch-content p{
+        font-size: 20px !important;
+    }
+    .box{
+        width: 50% !important;
+    }
+    .last-carousel{
+        height: 78vh !important;
+    }
+    .last-content{
+        padding-left: 30% !important;
+        padding-right: 30% !important;
+    }
+    .last-content > h1{
+        font-size: 40px !important;
+        margin-bottom: 4% !important;
+    }
+    .last-content > p{
+        font-size: 20px !important;
+    }
+    .last-content-img{
+        width: 60% !important;
+        top: 20% !important;
+        left: 22% !important;
+    }
+    .last-indicators{
+        bottom: -10% !important;
+    }
+    .end-banner p{
+        margin-top: 4% !important;
+        margin-left: 0% !important;
+        margin-bottom: 4% !important;
+        font-size: 18px !important;
+    }
+    .top-icon{
+        top: 23.5% !important;
+        right: 13% !important;
+    }
+    .footer{
+        font-size: 21px !important;
+    }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="73.959" height="665.581" viewBox="0 0 73.959 665.581">
+  <g id="Group_71432" data-name="Group 71432" transform="translate(-137 -5908.524)">
+    <g id="Group_71429" data-name="Group 71429" transform="translate(170 5909)">
+      <line id="Line_8100" data-name="Line 8100" y2="646.905" transform="translate(4.431 8.861)" fill="none" stroke="#676b78" stroke-miterlimit="10" stroke-width="0.951"/>
+      <path id="Path_133192" data-name="Path 133192" d="M75.541,130.069a4.431,4.431,0,1,1-4.43-4.43A4.431,4.431,0,0,1,75.541,130.069Z" transform="translate(-66.68 -125.639)" fill="none" stroke="#676b78" stroke-miterlimit="10" stroke-width="0.951"/>
+      <path id="Path_133193" data-name="Path 133193" d="M75.541,444.962a4.431,4.431,0,1,1-4.43-4.432A4.431,4.431,0,0,1,75.541,444.962Z" transform="translate(-66.68 215.235)" fill="none" stroke="#676b78" stroke-miterlimit="10" stroke-width="0.951"/>
+    </g>
+    <g id="Group_71427" data-name="Group 71427" transform="translate(137 5972.835)">
+      <circle id="Ellipse_7470" data-name="Ellipse 7470" cx="36.98" cy="36.98" r="36.98" fill="#532280"/>
+      <path id="Path_133194" data-name="Path 133194" d="M101.134,177.863a21.27,21.27,0,1,1-21.271-21.269A21.271,21.271,0,0,1,101.134,177.863Z" transform="translate(-42.884 -140.884)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.667"/>
+    </g>
+    <g id="Group_71430" data-name="Group 71430" transform="translate(137 6280.835)">
+      <circle id="Ellipse_7470-2" data-name="Ellipse 7470" cx="36.98" cy="36.98" r="36.98" fill="#532280"/>
+      <path id="Path_133194-2" data-name="Path 133194" d="M101.134,177.863a21.27,21.27,0,1,1-21.271-21.269A21.271,21.271,0,0,1,101.134,177.863Z" transform="translate(-42.884 -140.884)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.667"/>
+    </g>
+    <g id="Group_71428" data-name="Group 71428" transform="translate(137 6126.834)">
+      <circle id="Ellipse_7470-3" data-name="Ellipse 7470" cx="36.98" cy="36.98" r="36.98" fill="#9b3189"/>
+      <path id="Path_133194-3" data-name="Path 133194" d="M101.134,177.863a21.27,21.27,0,1,1-21.271-21.269A21.271,21.271,0,0,1,101.134,177.863Z" transform="translate(-42.884 -140.884)" fill="#9b3189" stroke="#fff" stroke-miterlimit="10" stroke-width="1.667"/>
+    </g>
+    <g id="Group_71431" data-name="Group 71431" transform="translate(137 6435.835)">
+      <circle id="Ellipse_7470-4" data-name="Ellipse 7470" cx="36.98" cy="36.98" r="36.98" fill="#9b3189"/>
+      <path id="Path_133194-4" data-name="Path 133194" d="M101.134,177.863a21.27,21.27,0,1,1-21.271-21.269A21.271,21.271,0,0,1,101.134,177.863Z" transform="translate(-42.884 -140.884)" fill="#9b3189" stroke="#fff" stroke-miterlimit="10" stroke-width="1.667"/>
+    </g>
+    <text id="_5" data-name="5" transform="translate(166 6019)" fill="#fff" font-size="26" font-family="Metropolis-Black, Metropolis" font-weight="800" letter-spacing="0.069em"><tspan x="0" y="0">5</tspan></text>
+    <text id="_6" data-name="6" transform="translate(165 6172)" fill="#fff" font-size="26" font-family="Metropolis-Black, Metropolis" font-weight="800" letter-spacing="0.069em"><tspan x="0" y="0">6</tspan></text>
+    <text id="_7" data-name="7" transform="translate(166 6325)" fill="#fff" font-size="26" font-family="Metropolis-Black, Metropolis" font-weight="800" letter-spacing="0.069em"><tspan x="0" y="0">7</tspan></text>
+    <text id="_8" data-name="8" transform="translate(165 6481)" fill="#fff" font-size="26" font-family="Metropolis-Black, Metropolis" font-weight="800" letter-spacing="0.069em"><tspan x="0" y="0">8</tspan></text>
+  </g>
+</svg>
