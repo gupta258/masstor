@@ -186,13 +186,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .desktop{
-        display: block;
-    }
-    .btn-download{
-        font-size: 12px;
-        text-align: center;
-    }
     .carousel{
         overflow: hidden;
     }
@@ -204,14 +197,8 @@
     .navbar.scrolled{
         color: #9B3189;
     }
-    .desktop-logo{
-        display: none;
-    }
-    .mobile-logo{
-        display: block;
-    }
     .logo{
-        width: 100%;
+        width: 50%;
     }
     .navbar{
         padding: 5% 2%;

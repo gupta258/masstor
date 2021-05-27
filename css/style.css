@@ -37,20 +37,8 @@ a{
     src: url(../Fonts/metropolis.black.otf);
 }
 
-.desktop{
-    display: none;
-}
-
 .logo{
     width: 160px;
-}
-
-.desktop-logo{
-    display: block;
-}
-
-.mobile-logo{
-    display: none;
 }
 
 .top-carousel{
