@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>masstor: Digital Schooling Experience</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/Group 65394@2x.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -16,11 +17,10 @@
 <body>
     <nav class="navbar navbar-expand-lg bgcolor fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="./assets/Group 71102.svg" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="navbar-brand mobile-logo" href="index.html"><img src="./assets/Group 71412 min.svg"
+                    class="logo"></a>
+            <a class="navbar-brand desktop-logo" href="index.html"><img src="./assets/Group 71102.svg" class="logo"></a>
+            <a class="btn-download" href="#">Download<br>Brochure</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -48,21 +48,28 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active top-carousel">
-                <img src="./assets/11.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" data-aos="fade-right" data-aos-duration="2000">
+                <img src="./assets/11.png" class="d-block w-100 desktop-carousel-background" alt="...">
+                <img src="./assets/1-mobile.png" class="d-block w-100 mobile-carousel-background" alt="...">
+                <div class="carousel-caption" data-aos="fade-right" data-aos-duration="2000">
                     <h2>Schools at your</h2>
                     <span>Fingertips</span>
-                    <p>Discovers schools of your choice, preferences, budget and continue your further schooling even in
+                    <p>Discovers schools of your choice, preferences, budget and continue your further schooling
+                        even in
                         this global pandemic.</p>
                     <div class="store">
                         <a href="#"><img class="play" src="./assets/Group 71106.svg"></a>
                         <a href="#"><img class="play" src="./assets/Group 71105.svg"></a>
                     </div>
+                    <div class="store-mobile">
+                        <a href="#"><img class="play-mobile" src="./assets/play-mobile.svg"></a>
+                        <a href="#"><img class="mac-mobile" src="./assets/mac-mobile.svg"></a>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item top-carousel">
-                <img src="./assets/22.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" data-aos="fade-right" data-aos-duration="2000">
+                <img src="./assets/22.png" class="d-block w-100 desktop-carousel-background" alt="...">
+                <img src="./assets/2-mobile.png" class="d-block w-100 mobile-carousel-background" alt="...">
+                <div class="carousel-caption" data-aos="fade-right" data-aos-duration="2000">
                     <h2>Schools are getting</h2>
                     <span>Smarter</span>
                     <p>In this rapid changing world, we have made learning smarter with our custom made features to
@@ -71,11 +78,16 @@
                         <a href="#"><img class="play" src="./assets/Group 71106.svg"></a>
                         <a href="#"><img class="play" src="./assets/Group 71105.svg"></a>
                     </div>
+                    <div class="store-mobile">
+                        <a href="#"><img class="play-mobile" src="./assets/play-mobile.svg"></a>
+                        <a href="#"><img class="mac-mobile" src="./assets/mac-mobile.svg"></a>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item top-carousel">
-                <img src="./assets/33.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block" data-aos="fade-right" data-aos-duration="2000">
+                <img src="./assets/33.png" class="d-block w-100 desktop-carousel-background" alt="...">
+                <img src="./assets/3-mobile.png" class="d-block w-100 mobile-carousel-background" alt="...">
+                <div class="carousel-caption" data-aos="fade-right" data-aos-duration="2000">
                     <h2>Smart Schooling in</h2>
                     <span>your budget</span>
                     <p>Find your current school or switch to another using our simplified features and start your
@@ -85,6 +97,10 @@
                         <a href="#"><img class="play" src="./assets/Group 71106.svg"></a>
                         <a href="#"><img class="play" src="./assets/Group 71105.svg"></a>
                     </div>
+                    <div class="store-mobile">
+                        <a href="#"><img class="play-mobile" src="./assets/play-mobile.svg"></a>
+                        <a href="#"><img class="mac-mobile" src="./assets/mac-mobile.svg"></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -92,7 +108,7 @@
     <section class="features" id="feature">
         <img class="badge-feature" src="./assets/heading.svg">
         <p class="vertical-text">Core Feature</p>
-        <div class="feature-main">
+        <div class="feature-main desktop-feature">
             <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100"
                 data-aos-duration="1000" data-aos-offset="0">
                 <img src="./assets/eXPLORE AND sEARCH.png">
@@ -114,7 +130,33 @@
                 <p>Admission Tracker</p>
             </div>
         </div>
-        <div class="feature-main mt-5">
+        <div class="feature-main mobile-feature">
+            <div class="mobile-res">
+                <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100"
+                    data-aos-duration="1000" data-aos-offset="0">
+                    <img src="./assets/eXPLORE AND sEARCH.png">
+                    <p>Explore<br>& Search</p>
+                </div>
+                <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+                    data-aos-offset="0" data-aos-duration="1000">
+                    <img src="./assets/cOMPARE sCHOOL.png">
+                    <p>Compare<br>Schools</p>
+                </div>
+            </div>
+            <div class="mobile-res">
+                <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="500"
+                    data-aos-offset="0" data-aos-duration="1000">
+                    <img src="./assets/sINGLE kyc.png">
+                    <p>Single<br>KYC Form</p>
+                </div>
+                <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="700"
+                    data-aos-offset="0" data-aos-duration="1000">
+                    <img src="./assets/ADMISSION tRACKER.png">
+                    <p>Admission<br>Tracker</p>
+                </div>
+            </div>
+        </div>
+        <div class="feature-main mt-5 desktop-feature">
             <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="900"
                 data-aos-offset="0" data-aos-duration="1000">
                 <img src="./assets/eNTRANCE teST.png">
@@ -136,13 +178,43 @@
                 <p>Attend Online School</p>
             </div>
         </div>
+        <div class="feature-main mobile-feature">
+            <div class="mobile-res">
+                <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="900"
+                    data-aos-offset="0" data-aos-duration="1000">
+                    <img src="./assets/eNTRANCE teST.png">
+                    <p>Entrance<br>Test</p>
+                </div>
+                <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="1100" data-aos-offset="0" data-aos-duration="1000">
+                    <img src="./assets/rESULT tRACKER.png">
+                    <p>Result<br>Tracker</p>
+                </div>
+            </div>
+            <div class="mobile-res">
+                <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="1300" data-aos-offset="0" data-aos-duration="1000">
+                    <img src="./assets/gET ADMISSION DONE.png">
+                    <p>Get Admission<br>Done</p>
+                </div>
+                <div class="feature-content" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="1500" data-aos-offset="0" data-aos-duration="1000">
+                    <img src="./assets/Attend Online School.png">
+                    <p>Attend Online<br>School</p>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="works" id="work">
-        <div class="main-content" data-aos="zoom-in" data-aos-duration="3000">
+        <div class="main-content desktop-main-content" data-aos="zoom-in" data-aos-duration="3000">
             <h1>How it works</h1>
             <p>We make your school search effortless by using our simplified process and features like Explore & Search,
                 Compare Schools and find out what suits you and many more features such as Single KYC Form, Admission
                 Test, Test Result, Admission process & Online Classroom.</p>
+        </div>
+        <div class="main-content mobile-main-content" data-aos="zoom-in" data-aos-duration="3000">
+            <h1>How it works</h1>
+            <p>We make your school search effortless by using our simplified process and features.</p>
         </div>
         <div class="work-content mb-5">
             <div class="work-content-left" data-aos="fade-right" data-aos-duration="3000">
@@ -255,16 +327,22 @@
                 to remind you of any important notification.</p>
             <div class="app-btn">
                 <h4>Now available on</h4>
-                <div class="app-btns">
+                <div class="app-btns desktop-app">
                     <a href="www.masstor.in" target="_blank"><img width="150" class="play-store"
                             src="./assets/Group 74392.svg"></a>
                     <a href="www.masstor.in" target="_blank"><img width="150" class="mac-store"
                             src="./assets/Group 74393.svg"></a>
                 </div>
+                <div class="app-btns mobile-app">
+                    <a href="#" target="_blank"><img class="play-store" src="./assets/app-mobile1.svg"></a>
+                    <a href="#" target="_blank"><img class="mac-store" src="./assets/app-mobile2.svg"></a>
+                </div>
             </div>
         </div>
     </section>
     <section class="pt-5 pb-5" id="city">
+        <img class="mobile-middle-img" src="./assets/Group 68671@2x.png" data-aos="zoom-out" data-aos="fade-right"
+            data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="3000">
         <div class="main-content pad" data-aos="zoom-in" data-aos-duration="3000">
             <h1>Cities for you</h1>
             <p>Wherever you are, discover best school for your child with masstor tools.</p>
@@ -272,8 +350,8 @@
         <div class="cities-content">
             <img class="bar" src="./assets/Group 71426.svg" data-aos="fade-right" data-aos-offset="200"
                 data-aos-easing="ease-in-sine" data-aos-duration="3000">
-            <img class="middle-img" src="./assets/Group 71411.png" data-aos="zoom-out" data-aos="fade-right"
-                data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="3000">
+            <img class="middle-img desktop-middle-img" src="./assets/Group 71411.png" data-aos="zoom-out"
+                data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="3000">
             <img class="bar" src="./assets/Group 71432.svg" data-aos="fade-left" data-aos="fade-right"
                 data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="3000">
             <div class="cities-name" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="3000">
@@ -364,10 +442,10 @@
         </div>
     </div>
     <div class="end-banner">
-        <img width="100" class="mobile-logo" src="./assets/Group 65394@2x.png" data-aos="fade-down"
+        <img width="100" class="mobile-logo1" src="./assets/Group 65394@2x.png" data-aos="fade-down"
             data-aos-duration="1000">
         <p data-aos="fade-up" data-aos-duration="1000">Follow with us</p>
-        <div class="d-flex justify-content-evenly pt-2">
+        <div class="d-flex justify-content-evenly pt-2 mobile-social">
             <a href="https://www.facebook.com/masstordotin" target="_blank" data-aos="fade-zoom-in"
                 data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-duration="1000" data-aos-offset="0"><img
                     class="social-icons" src="./assets/social-facebook-circular-button.svg"></a>

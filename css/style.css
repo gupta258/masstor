@@ -41,6 +41,14 @@ a{
     width: 160px;
 }
 
+.desktop-logo{
+    display: block;
+}
+
+.mobile-logo{
+    display: none;
+}
+
 .top-carousel{
     height: 104vh;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
     min-height: 300px;
@@ -51,6 +59,10 @@ a{
 .top-carousel > img{
     height: 100%;
     object-fit: fill;
+}
+
+.mobile-carousel-background{
+    display: none;
 }
 
 .carousel-caption{
@@ -79,6 +91,10 @@ a{
 
 .store > a{
     margin-right: 2%;
+}
+
+.store-mobile{
+    display: none;
 }
 
 .play{
@@ -160,6 +176,10 @@ a{
     padding-left: 12%;
 }
 
+.mobile-feature{
+    display: none;
+}
+
 .feature-content{
     display: flex;
     flex-direction: column;
@@ -207,6 +227,10 @@ a{
 
 .main-content > p{
     color: #532280;
+}
+
+.mobile-main-content{
+    display: none;
 }
 
 .work-content{
@@ -359,6 +383,10 @@ a{
     margin-bottom: 7%;
 }
 
+.mobile-app{
+    display: none;
+}
+
 .app-btn{
     display: flex;
     flex-direction: column;
@@ -384,6 +412,10 @@ a{
     padding-left: 11%;
     padding-right: 11%;
     position: relative;
+}
+
+.mobile-middle-img{
+    display: none;
 }
 
 .bar{
