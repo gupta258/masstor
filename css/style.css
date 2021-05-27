@@ -37,6 +37,10 @@ a{
     src: url(../Fonts/metropolis.black.otf);
 }
 
+.desktop{
+    display: none;
+}
+
 .logo{
     width: 160px;
 }
