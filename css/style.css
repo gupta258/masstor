@@ -346,108 +346,6 @@ a{
     padding-bottom: 3%;
 }
 
-.cities-content{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 11%;
-    padding-right: 11%;
-    position: relative;
-}
-
-.mobile-middle-img{
-    display: none;
-}
-
-.bar{
-    width: 50px;
-}
-
-.middle-img{
-    height: 500px;
-}
-
-.cities-name{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 14.3%;
-    left: 16%;
-}
-
-.cities-name1{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 35%;
-    left: 16%;
-}
-
-.cities-name2{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 34.5%;
-    left: 16%;
-}
-
-.cities-name3{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 13.5%;
-    left: 16%;
-}
-
-.cities-name4{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 14.3%;
-    right: 16%;
-    text-align: right;
-}
-
-.cities-name5{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 35%;
-    right: 16%;
-    text-align: right;
-}
-
-.cities-name6{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 34.5%;
-    right: 16%;
-    text-align: right;
-}
-
-.cities-name7{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    bottom: 13.5%;
-    right: 16%;
-    text-align: right;
-}
-
-.city{
-    font-size: 18px;
-    color: #532280;
-    margin-bottom: 0;
-    font-family: metropolis-black;
-}
-
-.number{
-    color: #9B3189;
-    font-size: 18px;
-    margin-bottom: 0;
-    font-family: metropolis-semi-bold;
-}
-
 .touch{
     background-image: url(../assets/Group\ 71721.png);
     background-position: center;
@@ -512,7 +410,7 @@ input::placeholder{
     padding-left: 6%;
     padding-right: 6%;
     margin-left: 10px;
-    padding-top: 1.5%;
+    padding-top: 0%;
 }
 
 .mobile{
@@ -561,9 +459,10 @@ input::placeholder{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 10% 30% 3% 30%;
+    padding: 3% 30% 3% 30%;
     text-align: center;
     position: relative;
+    margin-top: 8%;
 }
 
 .end-banner p{
@@ -574,7 +473,7 @@ input::placeholder{
 
 .top-icon{
     position: absolute;
-    top: 24%;
+    top: 5%;
     right: 13%;
     width: 1.5%;
 }
@@ -584,4 +483,8 @@ input::placeholder{
     color: #707070;
     text-align: center;
     margin-top: 1.2%;
+}
+
+.mobile-cities{
+    display: none;
 }
