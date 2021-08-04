@@ -1,12 +1,9 @@
 @media only screen and (min-width: 1920px){   
     .top-carousel{
-        height: 108vh !important;
-    }
-    .logo{
-        width: 100% !important;
+        height: 100vh !important;
     }
     .carousel-caption{
-        bottom: 34% !important;
+        bottom: 30% !important;
     }
     .carousel-caption > h2{
         font-size: 64px !important;
@@ -60,26 +57,8 @@
     .main-content > p{
         font-size: 20px !important;
     }
-    .work-content-left-admission{
-        width: 75% !important;
-    }
-    .work-content-left-admission > h2{
-        font-size: 40px !important;
-    }
-    .work-content-left-reverse-start > h2{
-        font-size: 40px !important;
-    }
     .explore{
         width: 75% !important;
-    }
-    .work-content-left-reverse-start{
-        width: 70% !important;
-    }
-    .work-content-left-reverse-start > p{
-        width: 75% !important;
-    }
-    .app{
-        padding: 5% 13% !important;
     }
     .app-style h1{
         font-size: 60px !important;
@@ -189,44 +168,53 @@
     .carousel{
         overflow: hidden;
     }
-    .bgcolor.scrolled {
-        background-image: linear-gradient(#532280 ,#9B3189);
-        transition: background 600ms linear;
-        height: 10%;
+    .top-carousel{
+        height: 120vh;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+        min-height: 300px;
     }
     .navbar.scrolled{
         color: #9B3189;
     }
+    .navbar-brand-desktop{
+        display: none;
+    }
     .logo{
-        width: 50%;
+        display: none;
+    }
+    .login-mobile{
+        display: block;
+    }
+    .mobile-logo-top{
+        display: block;
     }
     .navbar{
-        padding: 5% 2%;
+        padding: 4% 3%;
     }
     .desktop-carousel-background{
         display: none !important;
     }
     .mobile-carousel-background{
         display: block;
+        height: 120vh;
     }
     .carousel-caption{
-        top: 10%;
+        top: 8%;
         text-align: center;
-        left: 8%;
-        right: 8%;
+        left: 10%;
+        right: 10%;
     }
     .carousel-caption > h2{
         font-family: metropolis-medium;
-        font-size: 20px;
+        font-size: 21px;
     }
     .carousel-caption > span{
-        font-size: 20px;
+        font-size: 21px;
     }
     .carousel-caption > p{
-        font-size: 14px;
+        font-size: 10px;
         width: 100%;
         margin-bottom: 8%;
-        margin-top: 7%;
+        margin-top: 5%;
     }
     .store{
         display: none;
@@ -238,7 +226,7 @@
     }
     .top-indicators{
         left: 0%;
-        bottom: 2%;
+        bottom: 1%;
     }
     .features{
         background-image: none;
@@ -287,7 +275,7 @@
         display: block;
     }
     .works{
-        padding-top: 7%;
+        padding-top: 10%;
         padding-bottom: 10%;
         overflow: hidden;
     }
@@ -303,12 +291,10 @@
     }
     .main-content > p{
         font-size: 14px;
+        margin-bottom: 10%;
     }
-    .work-content{
-        flex-direction: column;
+    .work-content-left {
         text-align: center;
-        margin-bottom: 10% !important;
-        padding-top: 10% !important;
     }
     .work-content-left > h2{
         font-family: metropolis-semi-bold;
@@ -320,6 +306,23 @@
         font-size: 12px;
         width: 100%;
     }
+    .mobile-flex{
+        flex-direction: column-reverse;
+    }
+    .work-content-left-reverse{
+        width: 100%;
+        text-align: center;
+    }
+    .work-content-left-reverse > h2{
+        font-family: metropolis-semi-bold;
+        margin-bottom: 5%;
+        font-size: 16px;
+    }
+    .work-content-left-reverse > p{
+        color: #7E7C7C;
+        font-size: 12px;
+        width: 100%;
+    }
     .first-image{
         right: 0%;
     }
@@ -327,83 +330,9 @@
         top: 40%;
         right: 65%;
     }
-    .main-image-discover{
-        width: 100%;
-    }
-    .work-content-reverse{
-        flex-direction: column-reverse;
-        padding-top: 0 !important;
-        margin-bottom: 0 !important;
-    }   
-    .custom-image-reverse{
-        position: absolute;
-        width: 62%;
-        left: 18.5%;
-        top: -7%;
-    }
-    .first-image-reverse{
-        position: absolute;
-        width: 35%;
-        top: 12%;
-        left: 1%;
-    }
-    .second-image-reverse{        
-        position: absolute;
-        width: 35%;
-        top: 50%;
-        left: 64%;
-    }
-    .work-content-left-reverse{
-        text-align: center;
-        align-items: center;
-    }
-    .work-content-left-reverse > h2{
-        font-family: metropolis-semi-bold;
-        margin-bottom: 5%;
-        font-size: 16px;
-        margin-left: 0;
-    }
-    .work-content-left-reverse > p{
-        color: #7E7C7C;
-        width: 100%;
-        margin-left: 0%;
-        font-size: 14px;
-    }
-    .work-content-left-admission{
-        width: 100%;
-    }
-    .work-content-left-admission > h2{
-        color: #532280;
-        font-family: metropolis-semi-bold;
-        font-size: 16px;
-        margin-bottom: 5%;
-    }
-    .work-content-left-admission > p{
-        color: #7E7C7C;
-        font-size: 14px;
-        width: 100%;
-    }
-    .work-content-left-reverse-start{
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    .work-content-left-reverse-start > h2{
-        color: #532280;
-        font-family: metropolis-semi-bold;
-        margin-bottom: 5%;
-        margin-left: 0%;
-        font-size: 16px;
-    }
-    .work-content-left-reverse-start > p{
-        color: #7E7C7C;
-        width: 100%;
-        margin-left: 0%;
-        font-size: 14px;
-    }
     .app{
         background-image: url(../assets/Group\ 79334@2x.png);
-        padding: 10% 13%;
+        padding: 10% 13% 110% 13%;
         text-align: center;
         overflow: hidden;
     }
@@ -413,9 +342,11 @@
     .app-style h1{
         font-size: 20px;
         font-family: metropolis-semi-bold;
+        margin-bottom: 5%;
     }
     .app-style p{
-        margin-bottom: 100%;
+        font-size: 10px;
+        color: #7A7E8B;
     }
     .desktop-app{
         display: none !important;
@@ -425,12 +356,11 @@
     }
     .app-btns{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .app-btn h4{
         color: #532280;
         font-size: 15px;
-        margin-top: 10%;
     }
     .mac-store{
         margin-left: 0%;
