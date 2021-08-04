@@ -142,6 +142,7 @@
     }
     .mobile-logo-top{
         display: block;
+        width: 60%;
     }
     .navbar{
         padding: 4% 3%;
@@ -154,7 +155,7 @@
         height: 120vh;
     }
     .carousel-caption{
-        top: 8%;
+        top: 10%;
         text-align: center;
         left: 10%;
         right: 10%;
@@ -288,9 +289,10 @@
     }
     .app{
         background-image: url(../assets/Group\ 79334@2x.png);
-        padding: 10% 13% 110% 13%;
+        padding: 10% 13% 10% 13%;
         text-align: center;
         overflow: hidden;
+        height: 100vh;
     }
     .app-style{
         width: 100%;
@@ -356,7 +358,7 @@
     }
     .btn-submit{
         font-size: 10px;
-        padding-top: 3%;
+        padding-top: 1.5%;
     }
     .last-carousel{
         margin: 10% 0;
